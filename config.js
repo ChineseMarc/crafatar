@@ -40,7 +40,7 @@ var config = {
     cloudflare: process.env.CLOUDFLARE === "true"
   },
   // URL of your redis server
-  redis: process.env.REDIS_URL || 'redis://localhost:6379',
+  redis: process.env.REDISCLOUD_URL || 'redis://localhost:6379',
   server: {
     // port to listen on
     port: parseInt(process.env.PORT) || 3000,
